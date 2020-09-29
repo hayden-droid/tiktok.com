@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Edit A Fucking Page",
+  "version": "0.0.69",
+  "description": "Edit a Webpage's FUCKING HTML and CSS Source Code.",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.roblox.com/*"]
+  }]
+
+}

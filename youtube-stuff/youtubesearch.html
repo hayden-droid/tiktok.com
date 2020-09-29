@@ -1,0 +1,19 @@
+<DOCTYPE html>
+<html>
+<body>
+<div id="yt-masthead">
+<a id="logo-container" href="https://www.youtube.com/" title="YouTube home">
+<span class="logo" title="YouTube home">
+</span>
+<span class="content-region">GB</span>
+</a>
+<form id="masthead-search" class="search-form" action="https://www.youtube.com/results" onsubmit="if (document.getElementById('masthead-search-terms').value == '') return false;"><div id="masthead-search-terms-border" dir="ltr">
+<input id="masthead-search-terms" autocomplete="on" onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" name="search_query" value="" type="text" placeholder="Search" title="Search" aria-label="Search">
+</div>
+<button class="search-button" type="submit" onclick="if (document.getElementById('masthead-search-terms').value == '') return false; document.getElementById('masthead-search').submit(); return false;" dir="ltr">
+<span class="search-button-content">Search</span>
+</button>
+</form>
+</div>
+</body>
+</html>
